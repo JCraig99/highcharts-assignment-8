@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #fff;
+    background: #ccc;
+}
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+    display: flex;
+    align-items: center;
+}
+
+div {
+      padding: 25px 25px 25px 25px;
+}
+
+h2 {
+  text-align: left;
+}
+
+ header{
+   background:#ccc;
+   color:#000;
+   padding: 2rem;
+   margin: 0;
+   margin-bottom: 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+nav ul {
+    display:flex;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li{
+    color:#fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+footer {
+      color:#000;
+      text-align: center
+}
+.text{
+      color: #000;
+      flex:0 0 50%;
+      padding: 50px 50px 50px 50px;
+      max-width: 500px;
+      font-size: 15px;
+      line-height: 25px;
+}
+.photo{
+  width: 100%;
+  flex: 100%;
+  flex-direction: column;
+
+  .highcharts-figure, .highcharts-data-table table {
+    min-width: 360px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+	font-family: Verdana, sans-serif;
+	border-collapse: collapse;
+	border: 1px solid #EBEBEB;
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
+	max-width: 500px;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.highcharts-data-table th {
+	font-weight: 600;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
